@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/background_color.xml" value="0.2255" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/background_radius_board.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/gradient_sub_background.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/login_edit_text_box.xml" value="0.2085" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/main_menu_button.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/menu_bar_gradient.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/nav_home_back_gradient.xml" value="0.2595" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/next_or_submit_btn.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/on_click_background_radious.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/on_click_option_button.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/on_wrong_ans_option_button.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/option_button_shapping.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/drawable/popup_designs.xml" value="0.259" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/activity_astronomy_quiz.xml" value="0.25416666666666665" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/activity_computer_quiz.xml" value="0.25416666666666665" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/activity_flash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/activity_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/activity_law_quiz.xml" value="0.24010416666666667" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/activity_login_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/activity_quiz_dashboard.xml" value="0.2223731884057971" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/my_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/layout/nav_menu_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/menu/bottom_menu_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/menu/drawer_nav_items.xml" value="0.1" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/menu/navigation_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/PROGRAMMING/android app @course/All practices/MyQuiz/app/src/main/res/menu/top_menu_three_dot.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

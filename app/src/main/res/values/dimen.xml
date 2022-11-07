@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="uni_normal_padding">10dp</dimen>
+    <dimen name="btn_lr_padding">15dp</dimen>
+</resources>

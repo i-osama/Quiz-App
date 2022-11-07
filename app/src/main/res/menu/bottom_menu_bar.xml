@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/bottom_light_menu"
+    android:title="Light mode"
+    android:icon="@drawable/light_mode_icon"/>
+    <item android:id="@+id/bottom_night_menu"
+        android:title="Night mode"
+        android:icon="@drawable/night_mood_icon"/>
+    <item android:id="@+id/bottom_login_menu"
+        android:title="Back to Login"
+        android:icon="@drawable/ic_baseline_login_24"/>
+</menu>

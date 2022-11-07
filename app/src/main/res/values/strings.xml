@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quick Quiz</string>
+    <string name="nav_open">Navigation Open</string>
+    <string name="nav_close">Navigation Close</string>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".HistoryQuiz">
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/menu_bar_gradient">
+        <TextView
+            android:id="@+id/time_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:text="00:00"
+            android:textStyle="bold"
+            android:fontFamily="@font/lemon"/>
+    </LinearLayout>
+
+<!--    Popup start-->
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/popUpLayout"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BA000000">
+
+        <TextView
+            android:id="@+id/popUpText"
+            android:paddingTop="120dp"
+            android:layout_marginTop="190dp"
+            android:layout_width="320dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/lemon"
+            android:text="Showing My text"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:background="@drawable/popup_designs"/>
+        <TextView
+            android:id="@+id/popUpClose"
+            android:layout_marginTop="-100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="110dp"
+
+            android:padding="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Main menu"
+            android:drawableStart="@drawable/home_icon_white"
+            android:textSize="20dp"
+            android:fontFamily="@font/leckerli_one"
+            android:background="@drawable/main_menu_button"/>
+
+    </LinearLayout>
+
+<!--    Popup end-->
+
+    <ScrollView
+        android:id="@+id/scrollbar"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="null">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="272dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Score:"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/leckerli_one"/>
+                <TextView
+                    android:id="@+id/scoreBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:fontFamily="@font/leckerli_one"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="-45dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/history_icon"/>
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta"
+                android:text="What is the question boss?"
+                android:layout_marginTop="-10sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/option1"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/btn_lr_padding"
+                android:layout_marginTop="@dimen/uni_normal_padding"
+                android:layout_marginEnd="@dimen/btn_lr_padding"
+                android:fontFamily="@font/allerta"
+                android:text="Option 1"
+                android:textSize="20dp"
+                android:background="@drawable/option_button_shapping"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/option2"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/btn_lr_padding"
+                android:layout_marginTop="@dimen/uni_normal_padding"
+                android:layout_marginEnd="@dimen/btn_lr_padding"
+                android:fontFamily="@font/allerta"
+                android:text="Option 2"
+                android:textSize="20dp"
+                android:background="@drawable/option_button_shapping"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/option3"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/btn_lr_padding"
+                android:layout_marginTop="@dimen/uni_normal_padding"
+                android:layout_marginEnd="@dimen/btn_lr_padding"
+                android:fontFamily="@font/allerta"
+                android:text="Option 3"
+                android:textSize="20dp"
+                android:background="@drawable/option_button_shapping"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/option4"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/btn_lr_padding"
+                android:layout_marginTop="@dimen/uni_normal_padding"
+                android:layout_marginEnd="@dimen/btn_lr_padding"
+                android:fontFamily="@font/allerta"
+                android:text="Option 4"
+                android:textSize="20dp"
+                android:background="@drawable/option_button_shapping"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/nextSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/btn_lr_padding"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="@dimen/btn_lr_padding"
+                android:fontFamily="@font/roboto"
+                android:text="Next →"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/next_or_submit_btn"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

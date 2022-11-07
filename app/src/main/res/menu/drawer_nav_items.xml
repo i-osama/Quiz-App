@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="How to play"
+        android:id="@+id/nav_item_how_to_play"
+        android:icon="@drawable/instruction_icon"/>
+    <item android:title="Report a bug"
+        android:id="@+id/nav_item_bug_report"
+        android:icon="@drawable/bug_report"/>
+    <item android:icon="@drawable/about_us_icon"
+        android:title="About us"
+        android:id="@+id/nav_item_about_us"/>
+
+</menu>
