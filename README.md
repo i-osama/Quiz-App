@@ -4,7 +4,7 @@ Only history options were created as demo
 
 <p align= "center">
   <b>Main menu</b>
-  <br>
+  </br><br>
   <img src="https://user-images.githubusercontent.com/117646017/201483984-dfeb7814-3f43-4734-8776-fb574f34ae89.jpg" width="350" height="600"/>
 </p>
 
