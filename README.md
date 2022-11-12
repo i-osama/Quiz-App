@@ -6,4 +6,6 @@ Only history options were created as demo
 
 ![312305620_5800073220011698_7177531881057355310_n](https://user-images.githubusercontent.com/117646017/201483984-dfeb7814-3f43-4734-8776-fb574f34ae89.jpg)
 
-<img src="https://user-images.githubusercontent.com/117646017/201483955-f79afd9a-4fed-4c9f-ae4d-e4ec26a5b3c8.jpg" width="200" height="300"/>
+<p align= "center">
+  <img src="https://user-images.githubusercontent.com/117646017/201483955-f79afd9a-4fed-4c9f-ae4d-e4ec26a5b3c8.jpg" width="250" height="400"/>
+</p>
